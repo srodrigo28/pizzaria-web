@@ -1,9 +1,78 @@
 .container{
-  color: red;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login{
+  display: flex;
+  margin-top: 24px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
 
   h1{
-    color: green;
-    font-size: 50px;
+    color: var(--white)
+  }
+
+  form{
+    color: var(--white);
+    padding-bottom: 16px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 16px;
+  }
+
+  form button{
+    height: 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 18px;
+    letter-spacing: 2px;
+    background-color: var(--red-900);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: .5s ease-in-out;
+  }
+
+  form button:hover{
+    transform: scale(1.05);
+  }
+
+  .input{
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: var(--white);
+    letter-spacing: 2px;
+    background-color: var(--dark-900);
+    border: 1px solid var(--gray-100);    
+  }
+
+  .input::placeholder{
+    color: #ccc;
+  }
+
+  .textCadastrar{
+    text-align: center;
+    color: var(--white);
+  }
+
+
+}
+
+@media(max-width: 620px){
+  .login{
+    width: 80%
   }
 }
 
