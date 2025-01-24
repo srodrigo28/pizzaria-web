@@ -16,5 +16,9 @@ https://www.udemy.com/course/dev-fullstack/learn/lecture/45208793#overview
 npm install sass
 npm install axios
 
+* doc 
+https://www.npmjs.com/package/cookies-next
+npm install cookies-next
+
 #### Rodando o projeto
 npm run dev
