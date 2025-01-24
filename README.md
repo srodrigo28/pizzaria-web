@@ -14,6 +14,7 @@ https://www.udemy.com/course/dev-fullstack/learn/lecture/45208793#overview
 
 #### Dependências
 npm install sass
+npm install axios
 
 #### Rodando o projeto
 npm run dev
