@@ -9,7 +9,7 @@ npx create-next-app@latest
 
 *link ultimo visto
 ```
-https://www.udemy.com/course/dev-fullstack/learn/lecture/45208793#overview
+https://www.udemy.com/course/dev-fullstack/learn/lecture/45208833#overview
 ```
 
 #### Dependências
